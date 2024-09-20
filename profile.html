@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASKHUB - Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TASKHUB</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="meetings.html">Área de Reuniões</a></li>
+            </ul>
+        <div class="profile-section">
+            <img src="https://storage.googleapis.com/multi-static-content/previews/artage-io-thumb-664b21d3a6411832b685643162dbdd4c.png" alt="Foto de Perfil" class="profile-pic">
+            <p><h2>Olá, <span id="username">Link</span>!</h2></p>
+        </div>
+    </header>
+    <main>
+        <section class="profile-edit">
+            <form id="profile-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome">
+                
+                <label for="photo">Foto de Perfil:</label>
+                <input type="file" id="photo" name="photo" accept="image/*">
+                
+                <label for="description">Descrição:</label>
+                <textarea id="description" name="description" placeholder="Digite uma breve descrição"></textarea>
+                
+                <button type="submit">Salvar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
